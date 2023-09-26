@@ -12,6 +12,39 @@ body {
 
 
 
+.pedro-pablo {
+
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--IRIS, #4D5AE5);
+    font-style: normal;
+    line-height: 21px; /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    text-decoration:none;
+}
+
+.web-beb {
+
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-family: Raleway;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 21px; /* 116.667% */
+   letter-spacing: 0.54px;
+   text-transform: uppercase;
+   text-decoration:none;
+}
+
+.info {
+
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+
+}
 
 
 .main-section {
@@ -72,27 +105,11 @@ button {
 
 .aga{
  
-
-    padding-left: 156px;
-}
-
-
-
-
-.eblan {
-
-    display: flex;
-    padding:24px;
-    width: 264px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-    
-}
-
-.mydila{
-
     display: inline-flex;
-    position: flex;
-
+    align-items: flex-start;
+    gap: 24px;
 }
+
+
+
+

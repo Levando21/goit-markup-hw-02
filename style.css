@@ -6,11 +6,25 @@
 
 body {
      font-family: 'Roboto', sans-serif;
-     
+     color: #434455;
+     background: #FFF;
+     width: 1400px;
+     height: 3000px;
            
 }
 
 
+/*header*/
+
+
+.cman{
+     
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+    text-decoration: none;
+
+}
 
 .pedro-pablo {
 
@@ -43,8 +57,12 @@ body {
     display: inline-flex;
     align-items: flex-start;
     gap: 40px;
+    text-decoration: none;
 
 }
+
+/*section 1*/
+
 
 
 .main-section {
@@ -77,6 +95,7 @@ h1 {
     letter-spacing: 1.12px;
 }
 
+
 button {
     
     color: var(--WHITE, #FFF);
@@ -103,7 +122,10 @@ button {
 
 }
 
-.aga{
+
+/*sectiion 2*/
+
+.aga {
  
     display: inline-flex;
     align-items: flex-start;
@@ -112,4 +134,223 @@ button {
 
 
 
+.point-name {
+    display: flex;
+    width: 264px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    text-decoration: none;
 
+}
+
+.point-strategy{
+
+    color: var(--SLATE, #434455);
+    /* Body */
+    font-family: Roboto;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 24px; /* 150% */
+   letter-spacing: 0.32px;
+}
+
+
+
+/*section 3*/
+
+.generel-gavs {
+
+    margin-top: 120px;
+    background: var(--CLOUD, #F4F4FD);
+    width: 1440px;
+    height: 732px;
+    flex-shrink: 0;
+
+
+}
+
+
+.team {
+
+    padding-top: 120px;
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    /* Header 2 */
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+   
+}
+
+.liudi {
+    
+    padding-left: 156px;
+    margin-top: 8px;
+    display: inline-flex;
+    align-items: flex-start, center;
+    gap: 40px;
+    text-decoration: none;
+     
+
+}
+
+.list-part {
+   
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    border-radius: 0px 0px 4px 4px;
+    background: var(--WHITE, #FFF);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+
+
+}
+
+.name-bame {
+
+    color: var(--NAVY-BLUE, #2E2F42);
+   text-align: center;
+   /* Header 3 */
+   font-family: Roboto;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 24px; /* 120% */
+   letter-spacing: 0.4px;
+}
+
+
+.stelle{
+   color: var(--SLATE, #434455);
+   text-align: center;
+   /* Body */
+   font-family: Roboto;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 24px; /* 150% */
+   letter-spacing: 0.32px;
+}
+
+
+
+/*section 4*/
+
+
+
+.letsgo {
+
+    margin-top: 120px;
+    width: 1128px;
+    height: 1000px;
+    flex-shrink: 0; 
+    
+}
+
+.last-section-name{
+
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    /* Header 2 */
+    font-family: Roboto;
+    font-size: 36px;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+
+
+}
+
+
+.workspace {
+
+    width: 1128px;
+    height: 1000px;
+    flex-shrink: 0;
+    display: inline-flex;
+    
+
+}
+
+
+.row {
+ 
+    width: 1128px;
+    height: 420px;
+    flex-shrink: 0;
+    display: inline-flex;
+    gap:24px;
+
+    
+}
+
+.row-next{
+
+    width: 1128px;
+    height: 420px;
+    flex-shrink: 0;
+    display: inline-flex;
+
+    
+
+}
+
+
+
+
+.project-card{
+
+    display: flex;
+    width: 360px;
+    height: 420px;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex-shrink: 0;   
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--WHITE, #FFF);
+}
+
+
+.kartinka{
+
+    width: 360px;
+    height: 300px;
+    flex-shrink: 0;
+}
+
+
+.card-name{
+    
+    
+    color: var(--NAVY-BLUE, #2E2F42);
+    /* Header 3 */
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 120% */
+    letter-spacing: 0.4px;
+
+}
+
+.card-solve{
+    padding-top: 8px;
+    color: var(--SLATE, #434455);
+    /* Body */
+   font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+}

@@ -50,6 +50,7 @@ body {
    letter-spacing: 0.54px;
    text-transform: uppercase;
    text-decoration:none;
+   line-height: 1.17 
 }
 
 .info {
@@ -58,6 +59,29 @@ body {
     align-items: flex-start;
     gap: 40px;
     text-decoration: none;
+
+}
+
+.header-types {
+     
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+
+   
+}
+
+.header-types:hover{
+
+    color: #404bbf;
+}
+
+.links{
+      
+    font-style:normal;
+
 
 }
 
@@ -79,11 +103,10 @@ body {
 
 
 
-h1 {
+.main-name {
     width: 496px;
     color: var(--WHITE, #FFF);
     text-align: center;
-/* Header 1 */
     font-family: Roboto;
     font-size: 56px;
     font-style: normal;
@@ -96,11 +119,11 @@ h1 {
 }
 
 
-button {
+.order-service {
     
     color: var(--WHITE, #FFF);
   /* Button Text */
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -117,8 +140,17 @@ button {
     margin-left: 636px;
     box-flex: center;
     margin-top: 356px;
+    cursor: pointer;
     
  
+
+}
+
+.order-service:hover {
+
+    background-color:#404BBf;
+
+    
 
 }
 
@@ -146,6 +178,11 @@ button {
     align-items: flex-start;
     gap: 8px;
     text-decoration: none;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    font-size: 20px;
+    font-weight: 500;
+
 
 }
 
@@ -159,6 +196,10 @@ button {
    font-weight: 400;
    line-height: 24px; /* 150% */
    letter-spacing: 0.32px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color:#434455;
+
 }
 
 
@@ -191,7 +232,7 @@ button {
     line-height: 40px; /* 111.111% */
     letter-spacing: 0.72px;
     text-transform: capitalize;
-   
+    line-height: 1.11;
 }
 
 .liudi{
@@ -288,6 +329,7 @@ button {
    font-weight: 500;
    line-height: 24px; /* 120% */
    letter-spacing: 0.4px;
+
 }
 
 
@@ -331,6 +373,7 @@ button {
     line-height: 40px; /* 111.111% */
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    line-height: 1.11;
 
 
 }
@@ -421,3 +464,13 @@ button {
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
 }
+
+
+
+/*footer*/ 
+
+.footer-start{
+
+    background-color: #2e2f42;
+}
+

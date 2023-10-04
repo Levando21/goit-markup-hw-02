@@ -17,7 +17,7 @@ body {
 /*header*/
 
 
-.cman{
+.cman-cman{
      
     display: inline-flex;
     align-items: flex-start;
@@ -37,12 +37,13 @@ body {
     letter-spacing: 0.54px;
     text-transform: uppercase;
     text-decoration:none;
+    line-height: 1.17;
 }
 
 .web-beb {
 
-    color: var(--NAVY-BLUE, #2E2F42);
-    font-family: Raleway;
+   color: var(--NAVY-BLUE, #2E2F42);
+   font-family: Raleway;
    font-size: 18px;
    font-style: normal;
    font-weight: 700;
@@ -59,6 +60,7 @@ body {
     align-items: flex-start;
     gap: 40px;
     text-decoration: none;
+   
 
 }
 
@@ -68,20 +70,52 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-
+    text-decoration: none;
 
    
 }
 
-.header-types:hover{
+.header-types:hover:focus{
 
     color: #404bbf;
+}
+
+.header-types:focus{
+
+    color: #404bbf;
+}
+
+.index-bimbex{
+    
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-decoration: none;
+
+
 }
 
 .links{
       
     font-style:normal;
 
+
+}
+
+.links-names{
+           
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
+    
+
+
+}
+
+.links-names:hover{
+            
+    color: #404bbf;
 
 }
 
@@ -182,6 +216,7 @@ body {
     line-height: 1.2;
     font-size: 20px;
     font-weight: 500;
+    color: #2e2f42;
 
 
 }

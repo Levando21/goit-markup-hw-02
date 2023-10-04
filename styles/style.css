@@ -292,50 +292,6 @@ body {
 
 }
 
-.list-partl {
-    
-    display: inline-flex;
-    padding-bottom: 0px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 32px;
-    border-radius: 0px 0px 4px 4px;
-    background: var(--WHITE, #FFF);
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-
-
-}
-
-.list-parti {
-   
-    display: inline-flex;
-    padding-bottom: 0px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 32px;
-    border-radius: 0px 0px 4px 4px;
-    background: var(--WHITE, #FFF);
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-
-
-}
-
-.list-partm {
-   
-    display: inline-flex;
-    padding-bottom: 0px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 32px;
-    border-radius: 0px 0px 4px 4px;
-    background: var(--WHITE, #FFF);
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-
-
-}
 
 
 
@@ -362,8 +318,8 @@ body {
    font-size: 20px;
    font-style: normal;
    font-weight: 500;
-   line-height: 24px; /* 120% */
-   letter-spacing: 0.4px;
+   line-height: 1.2; /* 120% */
+   letter-spacing: 0.02em;
 
 }
 
@@ -378,7 +334,7 @@ body {
    font-size: 16px;
    font-style: normal;
    font-weight: 400;
-   line-height: 24px; /* 150% */
+   line-height: 1.5; /* 150% */
    letter-spacing: 0.32px;
 }
 
@@ -416,7 +372,7 @@ body {
 
 .workspace {
 
-   margin-top: 72px;
+    margin-top: 72px;
     width: 1128px;
     height: 1000px;
     flex-shrink: 0;
@@ -425,28 +381,6 @@ body {
 
 }
 
-
-.row {
- 
-    width: 1128px;
-    height: 420px;
-    flex-shrink: 0;
-    display: inline-flex;
-    gap:24px;
-
-    
-}
-
-.row-next{
-
-    width: 1128px;
-    height: 420px;
-    flex-shrink: 0;
-    display: inline-flex;
-
-    
-
-}
 
 
 
@@ -489,6 +423,7 @@ body {
 }
 
 .card-solve{
+    
     padding-top: 8px;
     color: var(--SLATE, #434455);
     /* Body */

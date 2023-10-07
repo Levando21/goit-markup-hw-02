@@ -55,7 +55,7 @@ body {
    line-height: 1.17 
 }
 
-.info {
+.info a {
 
     display: inline-flex;
     align-items: flex-start;
@@ -77,21 +77,22 @@ body {
    
 }
 
-.index-bimbex:hover, .index-bimbe:focus{
 
+.index-bimbex:hover,
+.index-bimbex:focus {
     color: #404bbf;
 }
 
-
-.links{
+.links a{
       
     font-style:normal;
+    text-decoration: none;
 
 
 }
 
-.links-names{
-           
+.clue-links{ 
+
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
@@ -100,7 +101,8 @@ body {
 
 }
 
-.links-names:hover{
+.clue-links:hover,
+.clue-links:focus {
             
     color: #404bbf;
 
@@ -167,7 +169,8 @@ body {
 
 }
 
-.order-service:hover {
+.order-service:hover,
+.order-service:focus {
 
     background-color:#404BBf;
 

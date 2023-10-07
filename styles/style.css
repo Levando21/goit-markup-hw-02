@@ -55,12 +55,11 @@ body {
    line-height: 1.17 
 }
 
-.info a {
+.info a{
 
     display: inline-flex;
     align-items: flex-start;
     gap: 40px;
-    text-decoration: none;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -71,7 +70,10 @@ body {
 }
 
 .index-bimbex{
-     
+
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #2e2f42;
     text-decoration:none;
    
@@ -80,12 +82,16 @@ body {
 
 .index-bimbex:hover,
 .index-bimbex:focus {
+
     color: #404bbf;
+
 }
 
-.links a{
+
+
+.links{
       
-    font-style:normal;
+    font-style: normal;
     text-decoration: none;
 
 
@@ -96,7 +102,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
-    
+    text-decoration: none;
 
 
 }

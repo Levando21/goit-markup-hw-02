@@ -19,9 +19,7 @@ body {
 
 .cman-cman{
      
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 40px;
+    
     text-decoration: none;
 
 }
@@ -419,8 +417,7 @@ body {
 }
 
 .card-solve{
-    
-    padding-top: 8px;
+  
     color: var(--SLATE, #434455);
     /* Body */
    font-family: Roboto;

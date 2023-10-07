@@ -44,7 +44,7 @@ body {
 .web-beb {
 
    color: var(--NAVY-BLUE, #2E2F42);
-   font-family: Raleway;
+   font-family: "Raleway", sans-serif;
    font-size: 18px;
    font-style: normal;
    font-weight: 700;
@@ -73,7 +73,7 @@ body {
 .index-bimbex{
      
     color: #2e2f42;
-
+    text-decoration:none;
    
 }
 

@@ -8,8 +8,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background: #FFF;
-    width: 1400px;
-    height: 3000px;
+  
            
 }
 
@@ -55,9 +54,7 @@ body {
 
 .info a{
 
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 40px;
+
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -117,9 +114,7 @@ body {
 
 
 .main-section {
-    width: 1440px;
-    height: 600px;
-    flex-shrink: 0;
+  
     background: var(--NAVY-BLUE, #2E2F42);
 
     
@@ -137,8 +132,7 @@ body {
     font-family: Roboto;
     font-size: 56px;
     font-style: normal;
-    margin-left: 472px;
-    padding-top: 180px;
+
     position: absolute;
     font-weight: 700;
     line-height: 1.07; /* 107.143% */
@@ -157,16 +151,11 @@ body {
     line-height: 24px; /* 150% */
     letter-spacing: 0.64px;
   /*Button*/
-    display: inline-flex;
-    padding: 16px 32px;
-    align-items: flex-start;
-    gap: 10px;
+   
     border-radius: 4px;
     background: var(--IRIS, #4D5AE5);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    margin-left: 636px;
-    box-flex: center;
-    margin-top: 356px;
+   
     cursor: pointer;
     
  
@@ -187,24 +176,12 @@ body {
 
 
 
-.aga {
- 
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 24px;
-    margin-top: 120px;
-    padding-left: 156px;
-    padding-right: 156px;
-}
+
 
 
 
 .point-name {
-    display: flex;
-    width: 264px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
+   
     text-decoration: none;
     letter-spacing: 0.02em;
     line-height: 1.2;
@@ -272,13 +249,7 @@ body {
 .list-part {
    
     
-    margin-left:156px ;
-    display: inline-flex;
-    padding-bottom: 0px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 32px;
+   
     border-radius: 0px 0px 4px 4px;
     background: var(--WHITE, #FFF);
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -320,7 +291,7 @@ body {
 
 .stelle{
 
-   padding-top: 8px;
+  
    color: var(--SLATE, #434455);
    text-align: center;
    /* Body */
@@ -338,15 +309,7 @@ body {
 
 
 
-.letsgo {
-    
-    align-items: center;
-    margin-top: 120px;
-    width: 1128px;
-    height: 1000px;
-    flex-shrink: 0; 
-    
-}
+
 
 .last-section-name{
     
@@ -364,16 +327,7 @@ body {
 }
 
 
-.workspace {
 
-    margin-top: 72px;
-    width: 1128px;
-    height: 1000px;
-    flex-shrink: 0;
-    display: inline-flex;
-    
-
-}
 
 
 
@@ -381,14 +335,7 @@ body {
 
 .project-card{
 
-    display: flex;
-    width: 360px;
-    height: 420px;
-    padding-bottom: 0px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 32px;
-    flex-shrink: 0;   
+    
     border: 1px solid var(--CORNFLOWER, #E7E9FC);
     background: var(--WHITE, #FFF);
 }
